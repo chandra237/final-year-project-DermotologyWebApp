@@ -6,18 +6,18 @@ But coming to our project we aimed at implementing some features along with the 
 
 Straight to the working our model, we have prepared a dataset of five classes, in which each class should contain 250-300 images. we trained our CNN model with that images.
 The five classes our model would predicts are:
-    1.Acne
-    2.Acnitic Keratosis
-    3.Warts Molloscum
-    4.Light Diseases and Pigmentation
-    5.Ringworm
+    1.Acne <br />
+    2.Acnitic Keratosis <br />
+    3.Warts Molloscum <br />
+    4.Light Diseases and Pigmentation <br />
+    5.Ringworm <br />
     
 Coming to the application, New users can signup and existing users can login to the application. once the user logged in, he will be landed on home page which allows the users to upload the image inorder to predict and a brief explanation about our appliaction.Apart from that our model provides various features that leverages our web application.
 
-The features include:
-    ->Prediction History
-    ->Community
-    ->Chatbot
+The features include: <br />
+    ->Prediction History <br />
+    ->Community <br />
+    ->Chatbot <br />
 
 Let me explain how these things work and useful to the customers,
 
