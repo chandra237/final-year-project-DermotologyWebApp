@@ -10,14 +10,14 @@ import { getAuth } from 'firebase/auth';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAA_zG1w4q5vN453iR_bZs5OYO2z0u96f8",
+  apiKey: "AIzaSyAA_zG1w4q5vu96f8",
   authDomain: "skin-ui-app.firebaseapp.com",
   databaseURL: "https://skin-ui-app-default-rtdb.firebaseio.com",
   projectId: "skin-ui-app",
   storageBucket: "skin-ui-app.appspot.com",
-  messagingSenderId: "857374977406",
-  appId: "1:857374977406:web:fa47e7dab8ea94c4ae972f",
-  measurementId: "G-ZYPV1WR7F5"
+  messagingSenderId: "85737406",
+  appId: "1:857374977406:94c4ae972f",
+  measurementId: "G-ZYP7F5"
 };
 
 // Initialize Firebase
