@@ -5,6 +5,7 @@ The speciality of our project compared to all other skin disease prediction proj
 But coming to our project we aimed at implementing some features along with the prediction of that corresponding disease.
 
 Straight to the working our model, we have prepared a dataset of five classes, in which each class should contain 250-300 images. we trained our CNN model with that images.
+
 The five classes our model would predicts are: <br />
     1.Acne <br />
     2.Acnitic Keratosis <br />
