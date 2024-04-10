@@ -1,0 +1,151 @@
+
+.community-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    border-radius: 15px;
+    max-height: 700px;
+    /* overflow-y: auto; */
+    width: 700px;
+}
+  
+  .user-questions-container {
+    position: relative;
+    order: 1; /* Move this div to the top */
+  }
+  
+  .question-form-container {
+    order: 2; /* Move this div to the bottom */
+  }
+  
+
+
+.question-form-container {
+    margin-top: 100px;
+    margin-bottom: 15px;
+  }
+
+  .question-form-container h2{
+    margin: 15px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .question-textarea {
+    flex: 1; /* Take up remaining space */
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  .question-textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: beige;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .reply-button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  .user-questions-container{
+    position: relative;
+    padding: 20px;
+    text-align: left;
+    /* overflow-y: auto; */
+  }
+  .user-questions-container ul li{
+    list-style-type: none;
+    margin: 25px 0px;
+  }
+
+  .replies p{
+    padding-top: 8px;
+  }
+
+  .replies ul li{
+    margin: 8px 0px;
+  }
+  li strong{
+    text-align: left;
+  }
+
+  .input-text{
+    padding: 7px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; /* Adjust width as needed */
+    background-color: beige;
+    color: black;
+    /* Add more styles as needed */
+  }
+
+  .input-text-button{
+    margin-left: 5px;
+    padding:7px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+  }
+
+  .input-text-button:hover{
+    background-color: #0056b3;
+  }
+
+  .send{
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .user-questions-container h2 {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: white; /* Optional: Set a background color */
+    z-index: 1; /* Ensure it stays above other content */
+  }
+
+  .scrollable-content {
+    max-height: 300px; /* Set a maximum height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */ 
+}
+
+  
+  .question-textarea::placeholder{
+    font-size: 17px;
+    align-items: center;
+  }
+  

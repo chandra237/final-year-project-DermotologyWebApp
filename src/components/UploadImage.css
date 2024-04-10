@@ -1,0 +1,97 @@
+
+/* uploadImages.css */
+
+.container {
+    display: flex; /* Make the container flexbox */
+    /* justify-content: space-between; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.upload {
+    flex: 1; /* Occupy half of the container */
+    padding: 20px;
+    padding-right: 80px;
+}
+
+.upload h2{
+    text-align: center;
+}
+
+.file {
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.custom-file-input {
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.custom-file-input:hover {
+    background-color: #e0e0e0;
+    border-color: #999;
+}
+
+.upload button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.7rem 2rem;
+    border: none;
+    margin: 12px 2px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload button:hover{
+    background-color: #0056b3;
+}
+.image-preview {
+    flex: 1; /* Occupy half of the container */
+    padding: 20px;
+    text-align: center;
+    padding-left: 80px;
+}
+
+.image-preview img{
+    
+    display: block;
+    margin: 30px auto;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid rgb(71, 59, 59);
+    border-radius: 8px;
+}
+
+.image-preview p{
+    font-size: 17px;
+    font-style:italic;
+    font-weight: 700;
+}
+
+
+.info-show{
+    padding: 0px 60px;
+    font-size: 17px;
+    /* font-style:italic; */
+    font-weight: bold;
+}
+
+.info-show ul{
+    /* list-style-type: none; */
+    text-align: left;
+    padding-left: 370px;
+    font-style: italic;
+}
+
+.note{
+    color: red;
+    /* font-weight: normal; */
+}

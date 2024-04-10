@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family:'Times New Roman', Times, serif;
+}
+
+
+
+.app{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  /* grid-template-rows: 60px 1fr; */
+  height: 100vh;
+  gap: 1.2rem;
+}
+
+
+
+.menu{
+  /* height: 100vh; */
+  justify-content: center;
+  padding-top: 50px;
+  background: beige;
+  border-radius: 0px 15px 15px 0px;
+  overflow: auto;
+}
+
+.content{
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding-top: 50px; */
+  background: bisque;
+  border-radius: 15px;
+}
+
+/* .history{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding-top: 50px;
+  background: beige;
+  border-radius: 15px;
+  overflow: auto;
+} */
+
+html,body{
+  min-height: 100vh;
+  background: #fff;
+  overflow:auto;
+}
+

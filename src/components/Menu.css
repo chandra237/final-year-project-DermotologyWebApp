@@ -1,0 +1,38 @@
+.sidebar {
+    padding: 20px 45px;
+    
+  }
+  
+  .sidebar h2{
+    text-align: center;
+  }
+  .inner-menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1px;
+    /* text-align:center; */
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+  
+
+  
+  .inner-menu li:hover {
+    cursor: pointer; /* Change cursor to pointer on hover for better UX */
+  }
+
+  .active {
+    /* Your styles for active NavLink */
+    background-color: #d9d9d9;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px;
+  }
+  
+  .inner-menu li {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Set text color to white */
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
